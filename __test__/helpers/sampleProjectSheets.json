@@ -1,0 +1,19 @@
+{
+  "range": "Project!A1:Z1000",
+  "majorDimension": "ROWS",
+  "values": [
+    ["Task", "Status", "Assignee", "Notes"],
+    ["Create sample sheets", "In Progress", "Michael"],
+    ["Make money", "In Progress", "Michael"],
+    ["Play Genshin Impact", "New", "Tuna"],
+    ["Stop sleeping early", "In Progress", "Tuna"],
+    ["Get a cat", "Complete", "Dennis"],
+    ["Buy a house", "Complete", "Dennis"],
+    ["Get a dog", "New", "Jeff"],
+    ["Learn to code", "New", "James"],
+    ["Connect to Google", "Complete", "Michael"],
+    ["Use WebAssembly", "New", "Dennis"],
+    ["Make Hung angry", "Complete", "Tuna"],
+    ["Get a job", "New", "James"]
+  ]
+}

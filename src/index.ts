@@ -15,8 +15,8 @@ export default function parseGoogleSheetsAPI(data: googleSheets): ParsedData {
 
   values.forEach((data) => {
     const dataSet: any = {};
-    data.forEach((value: any, index: number) => {
-      const key = headers[index];
+    headers.forEach((key: any, index: number) => {
+      const value = data[index] || null;
       dataSet[key] = value;
     });
     parsedData.push(dataSet);

@@ -1,4 +1,3 @@
 module.exports = {
-  singleQuote: true,
-  printWidth: 100,
+  ...require('@just-baiting/prettier-config'),
 };

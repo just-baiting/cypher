@@ -4,7 +4,7 @@ import parseGoogleSheetsAPI from '../src/index';
 const helperDir = path.join(__dirname, 'helpers');
 
 describe('test', () => {
-  it('testing', () => {
+  it('sample project sheet', () => {
     const sampleProjectSheets = JSON.parse(
       fs.readFileSync(path.join(helperDir, 'sampleProjectSheets.json'), 'utf-8')
     );

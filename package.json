@@ -1,5 +1,5 @@
 {
-  "name": "cypher",
+  "name": "@just-baiting/cypher",
   "version": "1.0.0",
   "description": "Parse & Process Google Sheets API",
   "main": "index.js",
